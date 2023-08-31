@@ -134,7 +134,9 @@ class Completer(object):
         sc = self.parser.parse(text,line)
         src = sc.get_code()
         dbg("source: %s" % src)
-        try: exec(src,self.compldict)
+        try:
+            exec(src,self.compldict)
+            self.compldict.update(self.compldict['__builtins__'])
         except: dbg("parser: %s, %s" % (sys.exc_info()[0],sys.exc_info()[1]))
         for l in sc.locals:
             try: exec(l,self.compldict)
