@@ -12,7 +12,7 @@ sudo wget https://github.com/vim/vim/raw/master/runtime/autoload/netrwSettings.v
 sudo wget https://github.com/vim/vim/raw/master/runtime/autoload/netrw_gitignore.vim -O /usr/share/vim/vim$(/usr/bin/vim --version | head -1 | awk '{ print $5 }' | sed 's/\.//g')/autoload/.vim
 sudo wget https://github.com/vim/vim/raw/master/runtime/autoload/paste.vim -O /usr/share/vim/vim$(/usr/bin/vim --version | head -1 | awk '{ print $5 }' | sed 's/\.//g')/autoload/netrw_gitignore.vim
 sudo wget https://github.com/vim/vim/raw/master/runtime/autoload/phpcomplete.vim -O /usr/share/vim/vim$(/usr/bin/vim --version | head -1 | awk '{ print $5 }' | sed 's/\.//g')/autoload/phpcomplete.vim
-sudo wget https://github.com/vim/vim/raw/runtime/autoload/syntaxcomplete.vim -O /usr/share/vim/vim$(/usr/bin/vim --version | head -1 | awk '{ print $5 }' | sed 's/\.//g')/autoload/syntaxcomplete.vim
+sudo wget https://github.com/vim/vim/raw/master/runtime/autoload/syntaxcomplete.vim -O /usr/share/vim/vim$(/usr/bin/vim --version | head -1 | awk '{ print $5 }' | sed 's/\.//g')/autoload/syntaxcomplete.vim
 sudo wget https://github.com/vim/vim/raw/master/runtime/autoload/spellfile.vim -O /usr/share/vim/vim$(/usr/bin/vim --version | head -1 | awk '{ print $5 }' | sed 's/\.//g')/autoload/spellfile.vim
 sudo wget https://github.com/vim/vim/raw/master/runtime/autoload/sqlcomplete.vim -O /usr/share/vim/vim$(/usr/bin/vim --version | head -1 | awk '{ print $5 }' | sed 's/\.//g')/autoload/sqlcomplete.vim
 sudo wget https://github.com/vim/vim/raw/master/runtime/autoload/zip.vim -O /usr/share/vim/vim$(/usr/bin/vim --version | head -1 | awk '{ print $5 }' | sed 's/\.//g')/autoload/zip.vim
