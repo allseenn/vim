@@ -2,10 +2,17 @@
 
 For those who use Vim on a daily basis across different servers, vps, hosting and working stations based mostly on Ubuntu. And have set of programming languages to test or fix some bugs. I present my light .vimrc file with syntax highlight and autocompletion based on *omni* function that activated with `Ctr` `X` + `Ctrl` `O` in insert mode with files by its extension.
 
-You could either download [copy.sh](copy.sh) or execute next command locally:
+## CODEIUM
 
 ```
-wget -O copy.sh https://github.com/allseenn/vim/raw/main/copy.sh && bash copy.sh && rm copy.sh
+git clone https://github.com/Exafunction/codeium.vim ~/.vim/pack/Exafunction/start/codeium.vim
+```
+
+Register
+
+
+```
+:Codeium Auth
 ```
 
 The commands will copy the `.vimrc` file to your home directory
