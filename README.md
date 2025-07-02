@@ -83,4 +83,15 @@ The list of fresh .vim scripts includes support for the following languages and 
 - `<` unindent the visually selected lines once
 - `=` auto indent code
 
+## Delete
+### Inside the block
+- `d` `i` `p` delete the text inside the paragraph
 
+### Outside the block
+- `d` `I` `p` delete the text outside the paragraph
+
+### Inside Object
+- `d` `i` `"` delete the text inside the quotation marks (", ', `, (), [], {}), etc)
+
+### Around Object
+- `d` `a` `"` delete the text outside the quotation marks
