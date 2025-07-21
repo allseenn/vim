@@ -1,8 +1,13 @@
 autocmd filetype plugin indent on
 set nocompatible
 set backspace=indent,eol,start
-" autocmd FileType python set omnifunc=python3complete#Complete
 autocmd FileType python set omnifunc=syntaxcomplete#Complete
+autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType css        set omnifunc=csscomplete#CompleteCSS
+autocmd FileType html       set omnifunc=htmlcomplete#CompleteTags
+autocmd FileType java       set omnifunc=javacomplete#Complete
+autocmd FileType c          set omnifunc=ccomplete#Complete
+autocmd FileType cpp        set omnifunc=omni#cpp#complete#Main
 command F !firefox --new-tab % & exit
 command B ter bash % " short alias for command bash
 command P ter python % " short alias for command python3
