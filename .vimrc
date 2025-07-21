@@ -3,6 +3,7 @@ nnoremap <C-c> :call codeium#Chat()<CR>
 set statusline+=\{…\}%3{codeium#GetStatusString()}
 let g:codeium_workspace_root_hints = ['.bzr','.git','.hg','.svn','_FOSSIL_','package.json']
 set nocompatible
+set backspace=indent,eol,start
 let g:EclimServerPath = 'localhost:9091'
 let g:EclimCompletionMethod		= 'omnifunc'
 let g:EclimProjectTreeAutoOpen	= 1
@@ -12,6 +13,7 @@ command F !firefox --new-tab % & exit
 command B ter bash % " short alias for command bash
 command P ter python % " short alias for command python3
 command J ter java % " short alias for command Java
+command E ter node % " short alias for command Node.js
 command G !gcc % -o %< && ./%<
 function! CompileAndRun()
     w
@@ -45,7 +47,7 @@ function! TranslateWord()
 endfunction
 map <A-d> :call TranslateWord()<CR>
 " Включаем библиотеку Rope
-let g:pymode_rope = 0
+let g:pymode_rope = 1
 " Включаем linting
 let g:pymode_lint = 1
 " Какие ошибки подсвечивать
@@ -53,7 +55,7 @@ let g:pymode_lint_checker = "pyflakes,pep8"
 " Отключаем надоедливое окно, отображающее ошибки и предупреждения
 let g:pymode_lint_cwindow = 0
 " Включаем поддержку virtualenv
-" let g:pymode_virtualenv = 1
+let g:pymode_virtualenv = 1
 " Подсветка синтаксиса и ошибок
 let g:pymode_syntax = 1
 let g:pymode_syntax_all = 1

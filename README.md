@@ -2,6 +2,16 @@
 
 For those who use Vim on a daily basis across different servers, vps, hosting and working stations based mostly on Ubuntu. And have set of programming languages to test or fix some bugs. I present my light .vimrc file with syntax highlight and autocompletion based on *omni* function that activated with `Ctr` `X` + `Ctrl` `O` in insert mode with files by its extension.
 
+## CLONING
+
+To clone repo without AI support at you houme dir exec command:
+
+```bash
+git clone https://github.com/allseenn/vim ~/.vim
+```
+
+This mothod good for study without AI completions, but omnifuncOD
+
 ## CODEIUM
 
 ```
@@ -10,37 +20,9 @@ git clone https://github.com/Exafunction/codeium.vim ~/.vim/pack/Exafunction/sta
 
 Register
 
-
 ```
 :Codeium Auth
 ```
-
-The commands will copy the `.vimrc` file to your home directory
-And if you have superuser rights also will be copied the latest .vim scripts from the official Vim repository to the standard Ubuntu share directory.
-
-The list of fresh .vim scripts includes support for the following languages and formats:
-
-- python3complete.vim
-- python.vim
-- htmlcomplete.vim
-- ccomplete.vim
-- csscomplete.vim
-- javascriptcomplete.vim
-- netrw.vim
-- netrwFileHandlers.vim
-- netrwSettings.vim
-- netrw_gitignore.vim
-- paste.vim
-- phpcomplete.vim
-- syntaxcomplete.vim
-- spellfile.vim
-- sqlcomplete.vim
-- zip.vim
-- gzip.vim
-- tohtml.vim
-- tar.vim
-- xmlcomplete.vim
-- xmlformat.vim
 
 # Short Keys
 
@@ -61,12 +43,15 @@ The list of fresh .vim scripts includes support for the following languages and 
 ## Indenting
 
 ### Indent
+
 #### Normal mode
+
 - `>` `>` indent the current line
 - `3` `>` `>` indent the current line and two lines below (same as `2` `>` `j`)
 - `>` `k` indent the current line and the line above (same as `1` `>` `k` or `>` `1` `k`)
 
 #### Visual mode
+
 - `>` indent the visually selected lines once
 - `3` `>` indent the visually selected lines three times
 - `=` auto indent code, use motion commands to indicate the portion to be indented
@@ -74,24 +59,31 @@ The list of fresh .vim scripts includes support for the following languages and 
 - `=` `i` `p` auto indents the current paragraph
 
 ### UnIndent
+
 #### Normal mode
 - `<` `<` unindent the current line
 - `5` `<` `<` unindent the current line and four lines below (same as `4` `<` `j` or `<` `4` `j`)
 - `2` `<` `k` unindent the current line and two lines above (same as `<` `2` `k`)
 
 #### Visual mode
+
 - `<` unindent the visually selected lines once
 - `=` auto indent code
 
 ## Delete
+
 ### Inside the block
+
 - `d` `i` `p` delete the text inside the paragraph
 
 ### Outside the block
+
 - `d` `I` `p` delete the text outside the paragraph
 
 ### Inside Object
+
 - `d` `i` `"` delete the text inside the quotation marks (", ', `, (), [], {}), etc)
 
 ### Around Object
+
 - `d` `a` `"` delete the text outside the quotation marks
