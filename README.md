@@ -40,6 +40,14 @@ Register
 2. Press `Ctrl` `V` (or `Ctrl` `Q` for gVim)
 3. Go down until the last commented line and press `x`, that will delete all the `#` characters vertically.
 
+## Omnifunc
+
+CTRL-x CTRL-o
+
+## ESC
+
+CTRL-[
+
 ## Indenting
 
 ### Indent
