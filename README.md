@@ -2,6 +2,23 @@
 
 For those who use Vim on a daily basis across different servers, vps, hosting and working stations based mostly on Ubuntu. And have set of programming languages to test or fix some bugs. I present my light .vimrc file with syntax highlight and autocompletion based on *omni* function that activated with `Ctr` `X` + `Ctrl` `O` in insert mode with files by its extension.
 
+## KYED
+
+Keyd its linux service that allows you easy remap keys in system level.
+
+https://github.com/rvaiya/keyd
+
+I'm using space with single tap for space symbol and long hold plus any key as combination of CTRL+any key.
+
+Config /etc/keyd/default.conf for combined space with control key:
+
+```bash
+[ids]
+*
+[main]
+space = overload(control, space)
+```
+
 ## CLONING
 
 To clone repo without AI support at you houme dir exec command:
@@ -95,3 +112,15 @@ CTRL-[
 ### Around Object
 
 - `d` `a` `"` delete the text outside the quotation marks
+
+## Netrw
+
+### Directory
+
+- `d` new directory
+- `R` renamd
+- `D` delete
+
+### File
+
+- `% file.txt`
