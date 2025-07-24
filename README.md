@@ -17,7 +17,11 @@ Config /etc/keyd/default.conf for combined space with control key:
 *
 [main]
 space = overload(control, space)
+[shift]
+space = space
 ```
+
+If you want old behaviaor many spaces with one press you need to press shift+space
 
 ## CLONING
 
