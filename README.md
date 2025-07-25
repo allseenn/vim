@@ -50,6 +50,7 @@ Register
 ## Comments
 
 ### Set comments
+
 1. Go to the first line you want to comment, press `Ctrl` `V`. This will put the editor in the VISUAL BLOCK mode.
 2. Using the arrow key and select until the last line
 3. Press `Shift` `I`, which will put the editor in INSERT mode
@@ -57,6 +58,7 @@ Register
 5. press `Esc` (give it a second), and it will insert a `#` character on all other selected lines.
 
 ### UnSet comments
+
 1. Put your cursor on the first `#` character
 2. Press `Ctrl` `V` (or `Ctrl` `Q` for gVim)
 3. Go down until the last commented line and press `x`, that will delete all the `#` characters vertically.
@@ -77,6 +79,11 @@ CTRL-x CTRL-o
 ## ESC
 
 CTRL-[
+
+## Browse
+
+- CTRL+f - forward (Page Down)
+- CTRL+b - backward (Page Up)
 
 ## Indenting
 
