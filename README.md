@@ -67,8 +67,8 @@ Register
 
 Word completions from current buffer
 
-- CTRL+p - will list to next word
-- CTRL+n - will list to previous word
+- CTRL+p - will list to previous word
+- CTRL+n - will list to next word
 
 ### Omnifunc
 
