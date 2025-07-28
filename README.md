@@ -21,6 +21,12 @@ space = overload(control, space)
 space = space
 ```
 
+Restart keyd.service:
+
+```bash
+systemctl restart keyd
+```
+
 If you want old behaviaor many spaces with one press you need to press shift+space
 
 ## CLONING
