@@ -2,7 +2,22 @@
 
 For those who use Vim on a daily basis across different servers, vps, hosting and working stations based mostly on Ubuntu. And have set of programming languages to test or fix some bugs. I present my light .vimrc file with syntax highlight and autocompletion based on *omni* function that activated with `Ctr` `X` + `Ctrl` `O` in insert mode with files by its extension.
 
-## KYED
+## KEYBOARD
+
+For reconfiguration hardware keys are plenty of options, but most native and fastest is:
+
+- to set variable XKBOPTIONS in default config file for keyboard
+- using service keyd
+
+### XKBOPTIONS
+
+In file /etc/default/keyboard. Modify the XKBOPTIONS value according to your preference. In my case, the option is:
+
+```bash
+XKBOPTIONS="grp:alt_shift_toggle,ctrl:swapcaps,shift:both_capslock_cancel"
+```
+
+### KYED
 
 Keyd its linux service that allows you easy remap keys in system level.
 
