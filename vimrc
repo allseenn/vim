@@ -30,7 +30,7 @@ set cursorline " underline the current line
 syntax on
 set mouse=a
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab " tab = 4 simbols
-set keymap=russian-jcukenwin 
+set keymap=russian-jcukenwin
 set iminsert=0
 set imsearch=0
 highlight lCursor guifg=NONE guibg=Cyan
