@@ -68,6 +68,18 @@ Register
 
 # Short Keys
 
+## Selection
+
+### Select ALL
+
+ggVG (в нормальном режиме).
+
+gg — перейти в начало файла
+
+V — включить визуальный режим выделения строками
+
+G — спуститься в самый конец файла
+
 ## Comments
 
 ### Set comments
@@ -137,6 +149,14 @@ CTRL-[
 - `=` auto indent code
 
 ## Delete
+
+### Delete from cursor to end
+
+dG (в нормальном режиме).
+
+d — удалить (delete)
+
+G — перемещение в самый конец файла
 
 ### Inside the block
 
